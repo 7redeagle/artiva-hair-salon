@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Portfolio | Tiger-Fish
+    meta(name="description" content="This is my Web Developer portfolio website.")
+    link(rel="stylesheet" href="css/main.min.css")
+    include templates/favicon.pug
+
+  body
+    header.header
+      include templates/header.pug
+    main.main
+      section.main__hero#hero
+        include templates/main-hero.pug
+      section.main__skills
+        include templates/main-skills.pug
+      section.main__projects
+        include templates/main-projects.pug
+      section.main__contact
+        include templates/main-contact.pug
+    footer.footer
+      include templates/footer.pug
+
+    script(src="js/bundle.min.js")
+    
