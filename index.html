@@ -11,7 +11,8 @@
 </head>
 
 <body>
-  <header>
+  <header class="sticky-top">
+    <div id="home"></div>
     <!-- header: email, phone, address -->
     <!-- todo: added icons for phone, email, address -->
     <nav class="nav justify-content-center bg-danger">
@@ -23,8 +24,8 @@
         N 11th St. 102B</a>
     </nav>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Artiva Hair Salon</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <a class="navbar-brand" href="index.html">Artiva Hair Salon</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,19 +33,22 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Prices</a>
+            <a class="nav-link" href="#prices">Prices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -52,7 +56,12 @@
   </header>
   <div class="hero container-fluid">
     <div class="hero--overlay"></div>
+
   </div>
+  <section id="about">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum esse quisquam, odio sapiente quam quos,
+      accusantium aut harum distinctio earum neque? Itaque tempore veritatis a odit, voluptate rerum ipsa.</p>
+  </section>
 
 
   <!-- script -->
