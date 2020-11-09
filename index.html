@@ -7,23 +7,48 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header>
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-md-4">
-          Address
-        </div>
-        <div class="col-md-4">
-          Email
-        </div>
-        <div class="col-md-4">
-          Phone
-        </div>
+    <!-- header: email, phone, address -->
+    <!-- todo: added icons for phone, email, address -->
+    <nav class="nav justify-content-center bg-danger">
+      <a class="nav-link text-white" href="tel:555-555-5555" target="_blank">267-519-0100</a>
+      <a class="nav-link text-white" href="artiva@artivahairsalon.com" target="_blank">artiva@artivahairsalon.com</a>
+      <a class="nav-link text-white"
+        href="https://www.google.com/maps/place/Artiva+Hair+Salon/@39.956091,-75.1592897,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c62afeccf079:0x582016cff3d1676b!8m2!3d39.956091!4d-75.157101"
+        target="_blank">217
+        N 11th St. 102B</a>
+    </nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Artiva Hair Salon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   </header>
 
   <!-- script -->
