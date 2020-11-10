@@ -24,7 +24,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 110vh;
 }
 
 .hero h3 {
@@ -34,5 +34,5 @@ body {
 }
 
 .hero a button {
-  margin-top: 30px;
+  margin-top: 1em;
 }
