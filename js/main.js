@@ -1,6 +1,11 @@
-// make image stretch entire page
-$(document).ready(function () {
-  $('.hero').height($(window).height());
+$(".hero"), css({
+  height: $(window).height() + "px"
+});
+
+$(window).on("resize", function () {
+  $(".hero").css({
+    height: $(window).height() + "px"
+  })
 })
 
 // active menu item 

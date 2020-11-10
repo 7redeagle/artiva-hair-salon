@@ -14,17 +14,9 @@ body {
 
 /* hero */
 .hero {
-  background-image: url(../assets/img/artiva-hero.png);
-  background-size: cover;
+  background-image: url("../assets/img/artiva-hero.png");
   background-position: center;
-  position: relative;
-}
-
-.hero--overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
 }
