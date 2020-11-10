@@ -12,11 +12,27 @@ body {
   justify-content: flex-end;
 }
 
+.navbar-brand {
+  font-family: 'Dancing Script',
+    cursive;
+  ;
+}
+
 /* hero */
 .hero {
   background-image: url("../assets/img/artiva-hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 130vh;
+  height: 120vh;
+}
+
+.hero h3 {
+  font-family: 'Dancing Script',
+    cursive;
+  ;
+}
+
+.hero a button {
+  margin-top: 30px;
 }
