@@ -36,3 +36,8 @@ body {
 .hero a button {
   margin-top: 1em;
 }
+
+/* gallery */
+.row {
+  margin: 15px;
+}

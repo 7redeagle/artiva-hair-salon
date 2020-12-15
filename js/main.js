@@ -1,3 +1,4 @@
+// hero
 $(".hero"), css({
   height: $(window).height() + "px"
 });
