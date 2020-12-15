@@ -37,7 +37,28 @@ body {
   margin-top: 1em;
 }
 
+.hero div {
+  padding: 2em;
+}
+
+.bg-section {
+  padding: 1em;
+}
+
+.bg-section h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 3%;
+  padding-top: .5em;
+  border-bottom: 2px solid red;
+}
+
 /* gallery */
+#gallery {
+  background-color: #000000;
+}
+
 .row {
   margin: 15px;
 }
