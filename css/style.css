@@ -5,6 +5,9 @@ html {
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Cormorant Garamond',
+    serif;
+  font-size: 18px;
 }
 
 /* navigation */
@@ -24,7 +27,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 140vh;
+  max-height: 100vh;
+  margin-bottom: -2em;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    min-height: 140vh;
+  }
 }
 
 .hero h3 {
@@ -38,11 +48,18 @@ body {
 }
 
 .hero div {
-  padding: 2em;
+  padding: 3em;
 }
 
+/* sections */
 .bg-section {
   padding: 1em;
+  margin: 1em 0em;
+}
+
+.bg-section h2 {
+  font-size: 3em;
+  text-transform: uppercase;
 }
 
 .bg-section h2:after {
@@ -51,7 +68,13 @@ body {
   margin: 0 auto;
   width: 3%;
   padding-top: .5em;
+  margin-bottom: 1em;
   border-bottom: 2px solid red;
+}
+
+/* services */
+#services h3 {
+  margin-top: 2em;
 }
 
 /* gallery */
@@ -61,4 +84,11 @@ body {
 
 .row {
   margin: 15px;
+}
+
+/* about */
+
+/* contact */
+#contact {
+  background-color: #000000;
 }
