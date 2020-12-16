@@ -42,6 +42,10 @@ body {
     transition: all 0.3s ease-in-out;
     color: #ffffff;
   }
+
+  #gallery a {
+    margin: 0em;
+  }
 }
 
 .hero h3 {
@@ -73,7 +77,7 @@ body {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 3%;
+  width: 10%;
   padding-top: .5em;
   margin-bottom: 1em;
   border-bottom: 2px solid red;
@@ -89,13 +93,22 @@ body {
   background-color: #000000;
 }
 
-.row {
-  margin: 15px;
+#gallery .row {
+  margin: 1em;
 }
+
+#gallery a {
+  margin: .5em 0em;
+}
+
 
 /* about */
 
 /* contact */
 #contact {
   background-color: #000000;
+}
+
+#contact input {
+  border-radius: 0px;
 }
