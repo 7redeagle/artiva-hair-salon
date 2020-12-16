@@ -21,14 +21,6 @@ body {
   ;
 }
 
-/* nav */
-.nav-item:hover {
-  transform: scale(2);
-  margin: 0em 1em;
-  transition: all 0.3s ease-in-out;
-  color: #ffffff;
-}
-
 /* hero */
 .hero {
   background-image: url("../assets/img/artiva-hero.png");
@@ -42,6 +34,13 @@ body {
 @media (min-width: 800px) {
   .hero {
     min-height: 140vh;
+  }
+
+  .nav-item:hover {
+    transform: scale(1.2) translateY(-8px);
+    margin: 0em 1em;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
   }
 }
 
