@@ -5,6 +5,9 @@ html {
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Cormorant Garamond',
+    serif;
+  font-size: 18px;
 }
 
 /* navigation */
@@ -24,7 +27,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 140vh;
+  max-height: 100vh;
+  margin-bottom: -2em;
 }
 
 .hero h3 {
@@ -36,3 +40,87 @@ body {
 .hero a button {
   margin-top: 1em;
 }
+
+@media (min-width: 800px) {
+  .hero {
+    min-height: 140vh;
+  }
+
+  .nav-item:hover {
+    transform: scale(1.2) translateY(-8px);
+    margin: 0em 1em;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+  }
+
+  #gallery a {
+    margin: 0em;
+  }
+}
+
+.hero h3 {
+  font-family: 'Dancing Script',
+    cursive;
+  ;
+}
+
+.hero a button {
+  margin-top: 1em;
+}
+
+.hero div {
+  padding: 3em;
+}
+
+/* sections */
+.bg-section {
+  padding: 1em;
+  margin: 1em 0em;
+}
+
+.bg-section h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.bg-section h2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: .5em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid red;
+}
+
+/* services */
+#services h3 {
+  margin-top: 2em;
+}
+
+/* gallery */
+#gallery {
+  background-color: #000000;
+}
+
+#gallery .row {
+  margin: 1em;
+}
+
+#gallery a {
+  margin: .5em 0em;
+}
+
+
+/* about */
+
+/* contact */
+#contact {
+  background-color: #000000;
+}
+
+#contact input {
+  border-radius: 0px;
+  height: 140vh;
+}
+
