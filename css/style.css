@@ -21,6 +21,14 @@ body {
   ;
 }
 
+/* nav */
+.nav-item:hover {
+  transform: scale(2);
+  margin: 0em 1em;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+}
+
 /* hero */
 .hero {
   background-image: url("../assets/img/artiva-hero.png");
