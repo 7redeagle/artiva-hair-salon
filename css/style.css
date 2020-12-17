@@ -39,7 +39,7 @@ body {
   right: 0;
   left: 0;
   z-index: 100;
-  height: 5em;
+  min-height: 5em;
 }
 
 .scrolled-down {
@@ -149,7 +149,7 @@ body {
   height: 0px;
 }
 
-@media (min-width: 777px) {
+@media (min-width: 831px) {
   .hero {
     min-height: 140vh;
   }
@@ -161,7 +161,7 @@ body {
   }
 
   .smart-scroll {
-    height: 3em;
+    min-height: 2.5em;
   }
 
   #gallery a {
