@@ -149,6 +149,11 @@ body {
   height: 0px;
 }
 
+/* footer */
+footer {
+  margin: -1em;
+}
+
 @media (min-width: 831px) {
   .hero {
     min-height: 140vh;
@@ -169,11 +174,11 @@ body {
   }
 
   #contact-img {
-    padding: 1.7em 10em;
+    padding: 2.5em 6em;
     visibility: visible;
   }
 
   #contact-img img {
-    height: 450px;
+    height: 400px;
   }
 }
