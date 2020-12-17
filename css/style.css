@@ -11,6 +11,13 @@ body {
 }
 
 /* navigation */
+/* #nav-info {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+} */
+
 .navbar-collapse {
   justify-content: flex-end;
 }
@@ -19,6 +26,29 @@ body {
   font-family: 'Dancing Script',
     cursive;
   ;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0%);
+  transition: all 0.3s ease-in-out;
 }
 
 /* hero */
@@ -121,6 +151,4 @@ body {
 
 #contact input {
   border-radius: 0px;
-  height: 140vh;
 }
-
