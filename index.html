@@ -6,7 +6,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artiva Hair Salon</title>
-  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -18,31 +17,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-    crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
+
 
 <body data-spy="scroll">
   <header class="sticky-top">
-    <div id="home"></div>
     <!-- header: email, phone, address -->
-    <nav class="nav justify-content-center bg-danger">
+    <nav class="nav justify-content-center bg-danger" id="nav-info">
       <a class="nav-link text-white" href="tel:267-519-0100" target="_blank"><i class="fas fa-phone"></i>
         267-519-0100</a>
       <a class="nav-link text-white" href="mailto:artiva@artivahairsalon.com" target="_blank"><i
-          class="fas fa-envelope"></i>artiva@artivahairsalon.com</a>
+          class="fas fa-envelope"></i>
+        artiva@artivahairsalon.com</a>
       <a class="nav-link text-white"
         href="https://www.google.com/maps/place/Artiva+Hair+Salon/@39.956091,-75.1592897,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c62afeccf079:0x582016cff3d1676b!8m2!3d39.956091!4d-75.157101"
-        target="_blank"><i class="fas fa-map-marker-alt"></i> 217
-        N 11th St. 102B</a>
+        target="_blank"><i class="fas fa-map-marker-alt"></i>
+        217 N 11th St. 102B</a>
+      <span class="nav-link text-white"><i class="fas fa-clock"></i>
+        Mon-Sat: 10 - 7 Sun: 10 - 6:30</span>
     </nav>
     <!-- navbar menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar smart-scroll navbar-expand-lg navbar-dark bg-dark ">
       <a class="navbar-brand" href="index.html">Artiva Hair Salon</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,129 +64,160 @@
       </div>
     </nav>
   </header>
-  <section class="hero jumbotron jumbotron-fluid bg-white" id="hero">
-    <div class="container text-center">
-      <h3 class="text-danger">
-        Established in 2013
-      </h3>
-      <h2 class="display-4">
-        Professional Hair Salon in the Heart of Philly
-      </h2>
-      <a href="#contact"><button type="button" class="btn btn-danger btn-lg">BOOK APPOINTMENTS</button></a>
-    </div>
-  </section>
-
-  <section class="bg-section" id="services">
-    <div class="container-fluid text-center">
-      <h2 class="container">
-        <strong>Services</strong>
-      </h2>
-    </div>
-    <div class="container-fluid text-center">
-      <h3 class="container">
-        - Haircut -
-      </h3>
-      <h4 class="text-danger">$15 & Up</h4>
-      <p>Here at Artiva, we like to take our time (roughly 30-45mins) to ensure you get the best haircut and service
-        possible.<p>
-
-          <p>Each haircut is finished with a hot towel on the neck and quick massage. If you’d like your hair washed,
-            just ask!</p>
-          <h3 class="container">
-            - Style -
-          </h3>
-          <h4 class="text-danger">$18 & Up</h4>
-          <p>Shampoo, blowdrying, and straightening</p>
-          <h3 class="container">
-            - Color -
-          </h3>
-          <h4 class="text-danger">$25 & Up</h4>
-          <p>Highlights, double dimension colors, color lifting and toning</p>
-          <h3 class="container">
-            - Wax -
-          </h3>
-          <h4 class="text-danger">$5 & Up</h4>
-          <p>Eye Brows, upper lip, chest, arms and legs</p>
-
-    </div>
-
-  </section>
-
-  <section class="bg-section text-white" id="gallery">
-    <div class="container-fluid text-center">
-      <h2 class="container">
-        <strong>Gallery</strong>
-      </h2>
-    </div>
-    <div class="container">
-      <div class="row">
-        <a href="assets/img/hair-1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-          <img src="assets/img/hair-1.jpg" class="img-fluid rounded">
-        </a>
-        <a href="assets/img/hair-2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-          <img src="assets/img/hair-2.jpg" class="img-fluid rounded">
-        </a>
-        <a href="assets/img/hair-3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-          <img src="assets/img/hair-3.jpg" class="img-fluid rounded">
-        </a>
+  <main>
+    <section class="hero jumbotron jumbotron-fluid bg-white" id="hero">
+      <div class="container text-center">
+        <h3 class="text-danger">
+          Established in 2013
+        </h3>
+        <h2 class="display-4">
+          Professional Hair Salon in the Heart of Philly
+        </h2>
+        <a href="#contact"><button type="button" class="btn btn-danger btn-lg">BOOK APPOINTMENT</button></a>
       </div>
-      <div class="row">
-        <a href="assets/img/hair-4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-          <img src="assets/img/hair-4.jpg" class="img-fluid rounded">
-        </a>
-        <a href="assets/img/hair-5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-          <img src="assets/img/hair-5.jpg" class="img-fluid rounded">
-        </a>
-        <a href="assets/img/hair-6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-          <img src="assets/img/hair-6.jpg" class="img-fluid rounded">
-        </a>
+    </section>
+
+    <section class="bg-section" id="services">
+      <div class="container-fluid text-center">
+        <h2 class="container">
+          <strong>Services</strong>
+        </h2>
       </div>
-    </div>
-  </section>
+      <div class="container-fluid text-center">
+        <h3 class="container">
+          - Haircut -
+        </h3>
+        <h4 class="text-danger">$15 & Up</h4>
+        <p>Here at Artiva, we like to take our time (roughly 30-45mins) to ensure you get the best haircut and service
+          possible.<p>
 
-  <section class="bg-section" id="about">
-    <div class="container-fluid text-center">
-      <h2 class="container">
-        <strong>About</strong>
-      </h2>
-    </div>
-  </section>
+            <p>Each haircut is finished with a hot towel on the neck and quick massage. If you’d like your hair washed,
+              just ask!</p>
+            <h3 class="container">
+              - Style -
+            </h3>
+            <h4 class="text-danger">$18 & Up</h4>
+            <p>Shampoo, blowdrying, and straightening</p>
+            <h3 class="container">
+              - Color -
+            </h3>
+            <h4 class="text-danger">$25 & Up</h4>
+            <p>Highlights, double dimension colors, color lifting and toning</p>
+            <h3 class="container">
+              - Wax -
+            </h3>
+            <h4 class="text-danger">$5 & Up</h4>
+            <p>Eye Brows, upper lip, chest, arms and legs</p>
 
-  <section class="bg-section text-white" id="contact">
-    <div class="container-fluid text-center">
-      <h2 class="container">
-        <strong>Contact</strong>
-      </h2>
-    </div>
-    <div class="container">
-      <div class="col-md-5">
-        <div class="form-area">
-          <form role="form"><br style="clear:both" />
-            <div class="form-group">
-              <input class="form-control" id="name" type="text" name="name" placeholder="Jane Doe" required="" />
-            </div>
-            <div class="form-group">
-              <input class="form-control" id="email" type="text" name="email" placeholder="name@email.com"
-                required="" />
-            </div>
-            <div class="form-group">
-              <input class="form-control" id="mobile" type="text" name="mobile" placeholder="123-456-7890"
-                required="" />
-            </div>
-            <div class="form-group">
-              <input class="form-control" id="subject" type="text" name="subject" placeholder="Reason for message"
-                required="" />
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" id="message" type="textarea" placeholder="Send us a message..."
-                rows="7"></textarea>
-            </div>
-            <button class="btn btn-danger col-12" id="submit" type="button" name="submit">Submit Form</button>
-          </form>
+      </div>
+
+    </section>
+
+    <section class="bg-section text-white" id="gallery">
+      <div class="container-fluid text-center">
+        <h2 class="container">
+          <strong>Gallery</strong>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <a href="img/hair-1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="img/hair-1.jpg" class="img-fluid rounded" alt="barber cutting hair">
+          </a>
+          <a href="img/hair-2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="img/hair-2.jpg" class="img-fluid rounded" alt="hair salon cutting hair">
+          </a>
+          <a href="img/hair-3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="img/hair-3.jpg" class="img-fluid rounded" alt="hairstyle waves">
+          </a>
+        </div>
+        <div class="row">
+          <a href="img/hair-4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="img/hair-4.jpg" class="img-fluid rounded" alt="hairstyle braids">
+          </a>
+          <a href="img/hair-5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="img/hair-5.jpg" class="img-fluid rounded" alt="hairstyle">
+          </a>
+          <a href="img/hair-6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <img src="img/hair-6.jpg" class="img-fluid rounded" alt="hairstyle">
+          </a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="bg-section" id="about">
+      <div class="container-fluid text-center">
+        <h2 class="container">
+          <strong>About</strong>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/artiva-outside.png" class="img-fluid rounded" alt="Artiva exterior">
+          </div>
+          <div class="col-md-6">
+            <h4>Ying Jing the Owner</h4>
+            <p>Ying Jing has been cutting and styining hair for over ten years in the Philadelphia area.</p>
+            <p>If you're looking for a great little, privately owned, hair salon & barber shop...you've found it!</p>
+            <h4>Artiva Hair Salon</h4>
+            <p> Located on the ground floor of the building on the corner of 11th & Spring Street, the salon is
+              convienient
+              to
+              anyone in downtown philly or anyone visiting Chinatown. Artiva opened in August of 2013 and has been
+              growing
+              its list of regular customers ever since.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-section text-white" id="contact">
+      <div class="container-fluid text-center">
+        <h2 class="container">
+          <strong>Contact</strong>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-area">
+              <form role="form"><br style="clear:both" />
+                <div class="form-group">
+                  <input class="form-control" id="name" type="text" name="name" placeholder="Jane Doe" required="" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="email" type="text" name="email" placeholder="name@email.com"
+                    required="" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="mobile" type="text" name="mobile" placeholder="123-456-7890"
+                    required="" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="subject" type="text" name="subject" placeholder="Reason for message"
+                    required="" />
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" type="textarea" placeholder="Send us a message..."
+                    rows="7"></textarea>
+                </div>
+                <button class="btn btn-danger col-12" id="submit" type="button" name="submit">Submit Form</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-3" id="contact-img">
+            <img src="img/hair-tools.jpg" class="rounded" alt="Salon tools">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-danger text-white text-center">
+    <p>@2020 Made with 🔥 by tiger-fish <a href="https://github.com/tiger-fish" target="_blank" class="text-white"><i
+          class="fab fa-github"></i></a></a>
+    </p>
+  </footer>
 
   <!-- script -->
   <script src="js/jquery.min.js"></script>

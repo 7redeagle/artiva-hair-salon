@@ -11,6 +11,13 @@ body {
 }
 
 /* navigation */
+#nav-info {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
 .navbar-collapse {
   justify-content: flex-end;
 }
@@ -21,9 +28,33 @@ body {
   ;
 }
 
+.navbar-toggler {
+  border: 0;
+  outline: 0;
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  min-height: 5em;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0%);
+  transition: all 0.3s ease-in-out;
+}
+
 /* hero */
 .hero {
-  background-image: url("../assets/img/artiva-hero.png");
+  background-image: url("../img/artiva-hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,22 +72,7 @@ body {
   margin-top: 1em;
 }
 
-@media (min-width: 800px) {
-  .hero {
-    min-height: 140vh;
-  }
 
-  .nav-item:hover {
-    transform: scale(1.2) translateY(-8px);
-    margin: 0em 1em;
-    transition: all 0.3s ease-in-out;
-    color: #ffffff;
-  }
-
-  #gallery a {
-    margin: 0em;
-  }
-}
 
 .hero h3 {
   font-family: 'Dancing Script',
@@ -121,6 +137,48 @@ body {
 
 #contact input {
   border-radius: 0px;
-  height: 140vh;
 }
 
+#contact-img {
+  visibility: hidden;
+  padding: 0em;
+  margin: 0em;
+}
+
+#contact-img img {
+  height: 0px;
+}
+
+/* footer */
+footer {
+  margin: -1em;
+}
+
+@media (min-width: 831px) {
+  .hero {
+    min-height: 140vh;
+  }
+
+  .nav-item:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+    color: #ffffff;
+  }
+
+  .smart-scroll {
+    min-height: 2.5em;
+  }
+
+  #gallery a {
+    margin: 0em;
+  }
+
+  #contact-img {
+    padding: 2.5em 6em;
+    visibility: visible;
+  }
+
+  #contact-img img {
+    height: 400px;
+  }
+}
