@@ -7,3 +7,7 @@ My redesign of Artiva Hair Salon Website. Made with Bootstrap and JQuery.
 
 ## Old Site 
 ![old site](https://github.com/tiger-fish/artiva-hair-salon/blob/main/demo/artiva-old.png)
+
+## My Redesign 
+![old site](https://github.com/tiger-fish/artiva-hair-salon/blob/main/demo/artiva-old.png)
+
