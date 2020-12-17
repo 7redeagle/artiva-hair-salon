@@ -1,3 +1,8 @@
+// auto close navbar when pressed 
+$('.navbar-collapse a').click(function () {
+  $(".navbar-collapse").collapse('hide');
+});
+
 // add padding top to show content behind navbar
 $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
 

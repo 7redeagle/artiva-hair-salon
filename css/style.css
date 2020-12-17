@@ -29,8 +29,8 @@ body {
 }
 
 .navbar-toggler {
-  border: none;
-  outline: none;
+  border: 0;
+  outline: 0;
 }
 
 .smart-scroll {
@@ -53,7 +53,7 @@ body {
 
 /* hero */
 .hero {
-  background-image: url("../assets/img/artiva-hero.png");
+  background-image: url("../img/artiva-hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
