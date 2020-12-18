@@ -10,12 +10,15 @@ body {
   font-size: 18px;
 }
 
+#about div,
+#contact div {
+  margin-bottom: 1em;
+}
+
 /* navigation */
 #nav-info {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+  visibility: hidden;
+  position: absolute;
 }
 
 .navbar-collapse {
@@ -39,7 +42,6 @@ body {
   right: 0;
   left: 0;
   z-index: 100;
-  min-height: 5em;
 }
 
 .scrolled-down {
@@ -131,26 +133,20 @@ body {
   padding-bottom: 2em;
 }
 
-#contact input {
-  border-radius: 0px;
-}
-
-#contact-img {
-  visibility: hidden;
-  padding: 0em;
-  margin: 0em;
-}
-
-#contact-img img {
-  height: 0px;
-}
-
 /* footer */
 footer {
   margin: -1em;
 }
 
-@media (min-width: 831px) {
+@media (min-width: 900px) {
+  #nav-info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    visibility: visible;
+  }
+
   .hero {
     min-height: 140vh;
   }
@@ -161,20 +157,7 @@ footer {
     color: #ffffff;
   }
 
-  .smart-scroll {
-    min-height: 2.5em;
-  }
-
   #gallery a {
     margin: 0em;
-  }
-
-  #contact-img {
-    padding: 2.5em 6em;
-    visibility: visible;
-  }
-
-  #contact-img img {
-    height: 400px;
   }
 }
