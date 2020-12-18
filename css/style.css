@@ -8,6 +8,7 @@ body {
   font-family: 'Cormorant Garamond',
     serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 #about div,
