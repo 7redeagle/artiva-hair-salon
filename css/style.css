@@ -10,7 +10,8 @@ body {
   font-size: 18px;
 }
 
-div {
+#about div,
+#contact div {
   margin-bottom: 1em;
 }
 
@@ -137,7 +138,7 @@ footer {
   margin: -1em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   #nav-info {
     position: fixed;
     top: 0;
