@@ -1,6 +1,6 @@
 # Artiva Hair Salon Website Redesign
 
-My redesign project of Artiva Hair Salon Website. Made with Bootstrap and JQuery. (Not Hired Work)
+My redesign project of Artiva Hair Salon Website. Made with Bootstrap and JQuery. Images from Unsplash. (Not Hired Work)
 
 - Original Site: https://www.artivahairsalon.com/
 - My redesign: https://tiger-fish.github.io/artiva-hair-salon/
