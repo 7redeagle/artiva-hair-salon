@@ -15,6 +15,7 @@ jobs:
           node-version: 14
       - run: npm install -g yarn
       - run: yarn install --frozen-lockfile
+      - run: yarn add --dev parcel@next
       - run: yarn build
       - uses: aws-actions/configure-aws-credentials@v1
         with:
